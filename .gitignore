@@ -1,0 +1,5 @@
+node_modules
+.next
+.tmp
+.tmp_next
+_tmp_next

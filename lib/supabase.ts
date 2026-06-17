@@ -7,4 +7,13 @@ const key =
 
 export const hasSupabase = Boolean(url && key);
 
-export const supabase = hasSupabase ? createClient(url!, key!) : null;
+let supabase = null;
+if (hasSupabase) {
+  try {
+    supabase = createClient(url!, key!);
+  } catch {
+    supabase = null;
+  }
+}
+
+export { supabase };

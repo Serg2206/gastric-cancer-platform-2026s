@@ -13,7 +13,7 @@ export default function ProfessorPage() {
             </div>
           </div>
           <div className="space-y-2">
-            <h1 className="text-3xl font-semibold tracking-tight">Проф. Сухов Сергей Викторович</h1>
+            <h1 className="text-3xl font-semibold tracking-tight">Проф. Сухов Сергей Валентинович</h1>
             <p className="text-gray-400">Хирург, онкохирург, научный руководитель МЦ «МАРИЯ» (Харьков)</p>
             <div className="flex flex-wrap gap-3">
               <Link

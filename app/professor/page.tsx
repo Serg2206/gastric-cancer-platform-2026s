@@ -13,7 +13,7 @@ export default function ProfessorPage() {
             </div>
           </div>
           <div className="space-y-2">
-            <h1 className="text-3xl font-semibold tracking-tight">Проф. Сухов Сергей Валентинович</h1>
+            <h1 className="text-3xl font-semibold tracking-tight">Проф. СУШКОВ Сергей Валентинович</h1>
             <p className="text-gray-400">Хирург, онкохирург, научный руководитель МЦ «МАРИЯ» (Харьков)</p>
             <div className="flex flex-wrap gap-3">
               <Link
@@ -36,7 +36,7 @@ export default function ProfessorPage() {
           <section className="rounded-xl border border-white/10 bg-white/5 p-5 space-y-3">
             <h2 className="text-xl font-medium">Научно-практический профиль</h2>
             <p className="text-gray-300">
-              Профессор Сухов сосредоточен на доказательной онкохирургии желудка, внедрении молекулярной
+              Профессор СУШКОВ сосредоточен на доказательной онкохирургии желудка, внедрении молекулярной
               стратификации (CDH1, MSI-H/dMMR, PD-L1) и интегрированных протоколов лечения.
               Его школа объединяет клинические кейсы МЦ «МАРИЯ» с образовательной платформой, где каждый
               модуль связан с реальными пациентами и протоколами.

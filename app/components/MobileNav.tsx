@@ -1,10 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { useProgress } from '@/hooks/useProgress';
+import { useProgress } from '../hooks/useProgress';
+import { useState } from 'react';
 
 export default function MobileMenu({ counts }: { counts: number }) {
-  const [open, setOpen] = useOpen(false);
+  const [open, setOpen] = useState(false);
 
   return (
     <div className="relative">

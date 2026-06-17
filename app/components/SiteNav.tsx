@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useProgress } from '@/hooks/useProgress';
+import { useProgress } from '../../hooks/useProgress';
 
 const etudes = [
   { slug: 'etude-1', title: 'ЭТЮД I', name: 'Демографический шизофрен' },

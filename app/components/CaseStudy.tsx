@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { useProgress } from '@/hooks/useProgress';
+import { useProgress } from '../../hooks/useProgress';
 
 export type CaseAnswer = {
   id: string;
